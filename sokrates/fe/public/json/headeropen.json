@@ -1,0 +1,34 @@
+{
+    "title": "Sokrates",
+    "subtitle": "College management taken to the next level",
+    "altLogo": "Sokrates of Athene",
+    "normalClasses": "button is-dark menu-item-thin",
+    "emphasisClasses": "button is-success menu-item-thin", 
+    "menu": [
+        {
+            "text": "Homepage",
+            "url": "/",
+            "status": "normal"
+        },
+        {
+            "text": "About",
+            "url": "/about.html",
+            "status": "normal"
+        },
+        {
+            "text": "About BSS",
+            "url": "/bss.html",
+            "status": "normal"
+        },
+        {
+            "text": "Terms of Use",
+            "url": "/terms.html",
+            "status": "normal"
+        },
+        {
+            "text": "Signup",
+            "url": "/signup.html",
+            "status": "normal"
+        }
+    ]
+}

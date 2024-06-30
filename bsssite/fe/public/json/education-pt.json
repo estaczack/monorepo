@@ -1,0 +1,20 @@
+{
+  "sections": [
+    "Cursos",
+    "Palestras"
+  ],
+  "firstLine": [
+    {
+      "title": "Qualidade de Software",
+      "image": "/images/education/qualidade.png",
+      "text": "<p>Qualidade de Software pode ser a diferença entre o sucesso e o fracasso de projetos de software. Por isso a BSS criou este curso que aborda os principais aspectos da qualidade de software, conforme difinidos na ISO 25010, bem como métricas de qualidade e ferramentas de gestão de qualidade.</p><p>Carga horária: <strong>8 (oito) horas</strong></p><p>Certificado: <strong>Sim</strong></p><p>Aulas gravadas: <strong>Sim</strong></p><a href='#' class='button is-danger is-fullwidth' target='_new'>Adquirir</a>"
+    }
+  ],
+  "secondLine": [
+    {
+      "title": "Como Ganhar Dinheiro com Software",
+      "image": "/images/education/qualidade.png",
+      "text": "<p>Qualidade de Software pode ser a difrença entre o sucesso e o fracasso de projetos de software. Por isso a BSS criou este curso que aborda os principais aspectos da qualidade de software, conforme difinidos na ISO 25010, bem como métricas de qualidade e ferramentas de gestão de qualidade.</p><p>Data de início: 04/08/2023</p><p>Data de término: 25/08/2023</p>"
+    }
+  ]
+}

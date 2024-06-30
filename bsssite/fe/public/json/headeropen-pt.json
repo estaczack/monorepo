@@ -1,0 +1,57 @@
+{
+    "title": "Black Scorpion Software BR",
+    "subtitle": "Excelência em Desenvolvimento de Software",
+    "altLogo": "BSS Logo",
+    "normalClasses": "button is-very-dark menu-item-thin not-bordered",
+    "emphasisClasses": "button is-very-dark menu-item-thin not-bordered", 
+    "menu": [
+        {
+            "text": "Homepage",
+            "url": "/",
+            "status": "normal",
+            "external": "n"
+        },
+        {
+            "text": "Sobre a BSS",
+            "url": "/bss.html",
+            "status": "normal",
+            "external": "n"
+        },
+        {
+            "text": "Blog",
+            "url": "https://www.blackscorpion.blog",
+            "status": "normal",
+            "external": "y"
+        },
+        {
+            "text": "Wiki",
+            "url": "https://blackscorpion.click",
+            "status": "normal",
+            "external": "y"
+        },
+        {   
+            "text": "Youtube",
+            "url": "https://www.youtube.com/@blackscorpionsoftware",
+            "status": "normal",
+            "external": "y"
+        },
+        {
+            "text": "BSS PSI",
+            "url": "bsspsi.html",
+            "status": "normal",
+            "external": "n"
+        },
+        {   
+            "text": "Mentoria",
+            "url": "/mentoria/loginmentoria.html",
+            "status": "normal",
+            "external": "n"
+        },
+        {
+            "text": "Participe",
+            "url": "/participate.html",
+            "status": "emphasis",
+            "external": "n"
+        }
+    ]
+}

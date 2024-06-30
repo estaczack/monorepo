@@ -1,0 +1,33 @@
+{
+    "title": "Hypatia",
+    "altLogo": "Hypatia of Alexandria",
+    "normalClasses": "button is-dark menu-item-thin",
+    "emphasisClasses": "button is-success menu-item-thin", 
+    "menu": [
+        {
+            "text": "Homepage",
+            "url": "/homepage.html",
+            "status": "normal"
+        },
+        {
+            "text": "Upload",
+            "url": "/upload.html",
+            "status": "normal"
+        },
+        {
+            "text": "Search",
+            "url": "/search.html",
+            "status": "normal"
+        },
+        {
+            "text": "My profile",
+            "url": "/profile.html",
+            "status": "normal"
+        },
+        {
+            "text": "Sign out",
+            "url": "/signout.html",
+            "status": "normal"
+        }
+    ]
+}

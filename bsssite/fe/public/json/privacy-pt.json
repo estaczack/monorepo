@@ -1,0 +1,55 @@
+{
+  "sections": [
+    "Política de Privacidade"
+  ],
+  "firstLine": [
+    {
+      "title": "Introdução",
+      "text": "Bem-vindo à nossa Política de Privacidade! Esta política descreve como coletamos, usamos e protegemos suas informações pessoais ao usar nosso site. Ao acessar e utilizar nossos serviços, você concorda com as práticas descritas nesta política."
+    },
+    {
+      "title": "Informações que Coletamos",
+      "text": "Coletamos apenas informações essenciais necessárias para fornecer nossos serviços. Isso pode incluir seu nome, endereço de e-mail e detalhes demográficos básicos. Não coletamos informações pessoais sensíveis sem o seu consentimento explícito."
+    },
+    {
+      "title": "Uso das Informações",
+      "text": "As informações que coletamos são usadas para melhorar nossos serviços, personalizar sua experiência e comunicar informações sobre atualizações ou anúncios importantes relacionados ao site."
+    },
+    {
+      "title": "Segurança dos Dados",
+      "text": "Priorizamos a segurança de seus dados. Implementamos medidas de segurança padrão do setor para proteger suas informações contra acesso não autorizado, divulgação ou alteração."
+    },
+    {
+      "title": "Serviços de Terceiros",
+      "text": "Não compartilhamos suas informações pessoais com terceiros em nenhuma circunstância. Não vendemos, alugamos ou negociamos seus dados. Suas informações permanecem exclusivamente sob nosso controle."
+    },
+    {
+      "title": "Cookies e Rastreamento",
+      "text": "Utilizamos cookies e tecnologias semelhantes para aprimorar sua experiência em nosso site. Você pode ajustar as configurações do seu navegador para gerenciar os cookies ou optar por não participar do rastreamento."
+    },
+    {
+      "title": "Escolhas do Usuário",
+      "text": "Você tem o direito de acessar, corrigir ou excluir suas informações pessoais mantidas por nós. Você também pode optar por não receber comunicações não essenciais de nossa parte."
+    },
+    {
+      "title": "Privacidade de Crianças",
+      "text": "Nossos serviços não são direcionados a crianças menores de 13 anos. Não coletamos intencionalmente informações pessoais de crianças. Se você acredita que uma criança nos forneceu suas informações, entre em contato imediatamente."
+    },
+    {
+      "title": "Alterações na Política de Privacidade",
+      "text": "Podemos atualizar nossa Política de Privacidade de tempos em tempos. Quaisquer alterações serão publicadas nesta página, e a data da última revisão será indicada."
+    },
+    {
+      "title": "Consentimento",
+      "text": "Ao usar nosso site, você consente na coleta e uso de suas informações pessoais conforme descrito nesta Política de Privacidade."
+    },
+    {
+      "title": "Entre em Contato",
+      "text": "Se você tiver alguma dúvida, preocupação ou solicitação relacionada à sua privacidade e dados, sinta-se à vontade para entrar em contato conosco usando as informações de contato fornecidas."
+    },
+    {
+      "title": "Jurisdição",
+      "text": "Esta Política de Privacidade é regida pelas leis de [país/estado]. Quaisquer disputas decorrentes desta política estarão sujeitas à jurisdição dos tribunais competentes nesta região."
+    }
+  ]
+}

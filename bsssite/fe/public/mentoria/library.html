@@ -1,0 +1,97 @@
+<html lang="en">
+
+<head>
+  <title>Black Scorpion Software</title>
+  <script src="https://kit.fontawesome.com/304db94c25.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
+  <link rel="icon" href="/images/logo_sm.png" type="image/x-icon">
+</head>
+
+<body>
+  <div id="message-area" class="message-area"></div>
+  <div id="root">
+    <div class="App">
+      <div id="Content" class="section">
+        <div class="columns">
+          <div id="column1" class="column is-3">
+            <div class="block">
+              <table class="table is-fullwidth is-bordered">
+                <thead class="is-light-gray">
+                  <tr>
+                    <th>
+                      <button class="button is-primary is-fullwidth" disabled>
+                        OPÇÕES
+                      </button>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody id="menu-lateral">
+                  <tr>
+                    <td>
+                      <a href="/mentoria/dashboard.html" class="button is-fullwidth">
+                        Página principal
+                      </a>
+                      <a href="/mentoria/pwdchange.html" class="button is-fullwidth">
+                        Mudar senha
+                      </a>
+                      <a href="/mentoria/library.html" class="button is-fullwidth">
+                        Biblioteca virtual
+                      </a>
+                      <div class="block">
+                        <a href="/mentoria/ranking.html" class="button is-fullwidth">
+                          Ranking
+                        </a>
+                      </div>
+                      <div class="block">
+                        <button id="logout-button" class="button is-danger is-fullwidth">
+                          Logout
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div id="column2" class="column is-9">
+            <div class="block">
+              <table class="table is-fullwidth is-bordered is-striped">
+                <thead class="is-light-gray">
+                  <tr>
+                    <th colspan="26">
+                      <button class="button is-primary is-fullwidth" disabled>
+                        LISTA DE LIVROS
+                      </button>
+                    </th>
+                  </tr>
+                  <tr id="lista-de-letras">
+                    
+                  </tr>
+                </thead>
+                <tbody id="lista-de-livros">
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    let bodyTag = document.getElementsByTagName("body")[0];
+    let url = window.location.href;
+    let urlArray = url.split("/");
+    let sc = urlArray.pop();
+    sc = (sc === "") ? "index.html" : sc;
+    scArray = sc.split(".");
+    scName = "/js/" + scArray[0] + ".js";
+    let scriptTag = document.createElement("script");
+    scriptTag.setAttribute("src", scName);
+    scriptTag.setAttribute("type", "text/javascript")
+    bodyTag.appendChild(scriptTag);
+  </script>
+</body>
+
+</html>

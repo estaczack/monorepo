@@ -1,0 +1,53 @@
+{
+  "sections": [
+    "A BSS não é uma empresa, é um coletivo!",
+    "Como trabalhamos?",
+    "Um pouco de História..."
+  ],
+  "firstLine": [
+    {
+      "title": "O que é um coletivo?",
+      "image": "/images/bss/collective.png",
+      "text": "Um coletivo é um grupo unido que busca interesses compartilhados, muitas vezes colaborando com deveres e tomada de decisões compartilhados. Ele abrange esferas sociais, políticas e empresariais. Exemplos incluem artistas colaborando, cooperativas de funcionários e colaborações internacionais. Coletivos significam esforços de grupo harmoniosos, sejam eles artísticos, voltados para os negócios ou compartilhados globalmente."
+    },
+    {
+      "title": "Assembleia de Membros",
+      "image": "/images/bss/assembly.png",
+      "text": "Como um coletivo, a Black Scorpion Software é governada por uma Assembleia de Membros - uma estrutura democrática que representa todos os interessados. Compreendendo todos os membros, ela orienta decisões estratégicas por meio de reuniões regulares, promovendo transparência e propriedade compartilhada. Isso sublinha nosso compromisso com a colaboração, transparência e realização de objetivos comerciais juntos."
+    },
+    {
+      "title": "Sem funcionários",
+      "image": "/images/bss/membersonly.png",
+      "text": "Na Black Scorpion Software, defendemos o modelo coletivo, nos distinguindo de estruturas convencionais. Nossa organização é composta por membros do coletivo, cada um vital e igual em status, ativamente envolvido na tomada de decisões e na busca de metas compartilhadas. Essa unidade impulsiona a colaboração, respeita a diversidade e alimenta a inovação, moldando o futuro das soluções de software juntos."
+    }
+  ],
+  "secondLine": [
+    {
+      "title": "Os Três Níveis",
+      "image": "/images/bss/threetiers.png",
+      "text": "Como um coletivo, a Black Scorpion Software emprega um meticuloso processo de admissão para novos membros, garantindo eficiência e dedicação. Nossa estrutura de membros consiste em Estagiários, Associados Júnior e Associados Sênior. Estagiários passam por treinamento abrangente, enquanto Associados Júnior contribuem sem direitos de voto. Associados Sênior alcançam status completo e direitos de voto, refletindo seu papel fundamental na formação do caminho do coletivo. Em cada nível, a integração se aprofunda, formando uma comunidade forte e unida."
+    },
+    {
+      "title": "Recrutamento Técnico",
+      "image": "/images/bss/ourservices.png",
+      "text": "Na Black Scorpion Software, entregamos um robusto portfólio de quatro serviços vitais. Nossas ofertas abrangem soluções de software proprietárias em conformidade com padrões da indústria, desenvolvimento personalizado sob medida, consultoria esclarecedora e implantação de equipes qualificadas. Cada serviço destaca nossa dedicação à excelência e à adição de valor, capacitando seu negócio com soluções tecnológicas superiores. Descubra a amplitude de opções na Black Scorpion Software."
+    }
+  ],
+  "thirdLine": [
+    {
+      "title": "Nossos fundadores",
+      "image": "/images/bss/ed.png",
+      "text": "<span><strong>Ed de Almeida</strong></span>, também conhecido como 'O Dinossauro', fundou a <strong>Black Scorpion Software</strong> com o dinheiro obtido vendendo sua primeira biblioteca JavaScript para processar imagens DICOM. Ele é um matemático brasileiro, desenvolvedor de software, psicanalista e escritor. Se você deseja saber mais sobre ele, visite <a href='ed.html'>sua página</a>."
+    },
+    {
+      "title": "A Origem do Nome",
+      "image": "/images/bss/blackscorpion.png",
+      "text": "A empresa tinha inicialmente um nome diferente, mas foi renomeada depois que Ed de Almeida foi picado por um escorpião preto durante uma viagem. Depois de passar dias em estado crítico, ele sobreviveu. De acordo com Ed de Almeida, Friedrich Nietzsche estava certo ao dizer que o que não nos mata nos torna mais fortes."
+    },
+    {
+      "title": "Associados Sênior",
+      "image": "/images/bss/crowd.png",
+      "text": "<strong>A Black Scorpion Software</strong> começou com um homem, cinco anos atrás. Agora temos setenta e dois associados, distribuídos por todo o mundo, e estamos crescendo rapidamente. Para conhecer nossos Associados Sênior, visite <a href='seniores.html'>esta página</a>. Nossos Associados Júnior estão listados <a href='juniores.html'>aqui</a>."
+    }
+  ]
+}

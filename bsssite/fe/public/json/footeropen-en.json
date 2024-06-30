@@ -1,0 +1,49 @@
+{
+  "title": "Black Scorpion Software",
+  "normalClasses": "button is-very-dark menu-item-thin not-bordered",
+  "emphasisClasses": "button is-very-dark menu-item-thin not-bordered",
+  "menu": [
+    {
+      "text": "Homepage",
+      "url": "/",
+      "status": "normal"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "/privacy.html",
+      "status": "normal"
+    },
+    {
+      "text": "Terms of Use",
+      "url": "/terms.html",
+      "status": "normal"
+    },
+    {
+      "text": "Contact Us",
+      "url": "/contact.html",
+      "status": "normal"
+    }
+  ],
+  "socialNetworks": [
+    {
+      "title": "LinkedIn",
+      "logo": "/images/sn/linkedin.png",
+      "url": "https://www.linkedin.com/company/83024216"
+    },
+    {
+      "title": "Youtube",
+      "logo": "/images/sn/youtube.png",
+      "url": "https://www.youtube.com/@blackscorpionsoftware"
+    },
+    {
+      "title": "Instagram",
+      "logo": "/images/sn/instagram.png",
+      "url": "https://www.instagram.com/blackscorpionsoftware/"
+    },
+    {
+      "title": "Facebook",
+      "logo": "/images/sn/facebook.png",
+      "url": "https://www.facebook.com/profile.php?id=100095012917283"
+    }
+  ]
+}

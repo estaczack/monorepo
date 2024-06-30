@@ -1,0 +1,55 @@
+{
+  "sections": [
+    "Terms of Use"
+  ],
+  "firstLine": [
+    {
+      "title": "Introduction",
+      "text": "Welcome to our website! By accessing and using our services, you agree to these terms of use, which establish the rules and guidelines for your interaction with us."
+    },
+    {
+      "title": "Acceptance of Terms",
+      "text": "By using the website, you agree to fully comply with these terms of use. If you do not agree with any point, we ask that you do not continue to use our services."
+    },
+    {
+      "title": "Responsible Use",
+      "text": "You agree to use the website responsibly, not infringing any applicable laws or regulations, as well as respecting the rights of third parties."
+    },
+    {
+      "title": "Respect and Non-Discrimination",
+      "text": "Users are required to treat each other with respect and consideration. Any form of personal attack, hate speech, prejudice, discrimination, or offensive language will not be tolerated."
+    },
+    {
+      "title": "User-Generated Content",
+      "text": "By contributing content, such as comments or posts, you agree not to share defamatory, obscene, illegal, or rights-violating materials."
+    },
+    {
+      "title": "Intellectual Property",
+      "text": "The content on the website is protected by copyright and intellectual property rights. You agree not to reproduce, distribute, or modify any content without express permission."
+    },
+    {
+      "title": "Privacy",
+      "text": "We respect your privacy. Please refer to our privacy policy to understand how we collect, use, and protect your personal data."
+    },
+    {
+      "title": "External Links",
+      "text": "The website may contain links to external resources. We are not responsible for the content or privacy practices of these third-party sites."
+    },
+    {
+      "title": "Modifications and Interruptions",
+      "text": "We reserve the right to modify or interrupt the website at any time without prior notice. We are not responsible for any losses resulting from these actions."
+    },
+    {
+      "title": "Disclaimer of Warranties",
+      "text": "The website is provided 'as is,' without warranties of any kind, expressed or implied. We are not liable for direct, indirect, incidental, or consequential damages."
+    },
+    {
+      "title": "Termination",
+      "text": "We reserve the right to terminate the access of any user who violates these terms of use or engages in harmful conduct towards the website or other users."
+    },
+    {
+      "title": "Jurisdiction and Applicable Law",
+      "text": "These terms of use are governed by the laws of [country/state], and any dispute will be subject to the jurisdiction of the competent courts in this region."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+li {
+  list-style-type: none;
+}
+
+ul.authors-list {
+  margin-top: 0em;
+  margin-left: 0em;
+}
+
+.title-script {
+  font-size: 3.8rem;
+  font-family: "Dancing Script";
+}
+
+.title-script-closed {
+  font-size: 2.2rem;
+  font-family: "Dancing Script";
+  font-weight: bolder;
+}
+
+.subtitle-thin {
+  font-family: Oswald;
+}
+
+.menu-item-thin {
+  color: #ffff00 !important;
+  font-size: 1.2rem;
+  font-family: Oswald;
+  font-weight: bold;
+  letter-spacing: 0.095rem;
+}
+
+.separador-titulo-subtitulo {
+  margin-bottom: 1.5rem !important;
+}
+
+.is-pink {
+  background-color: hsl(349, 100%, 98%) !important;
+}
+
+.is-light-gray {
+  background-color: hsl(0, 0%, 93%) !important;
+}
+
+.is-bordered {
+  border: 1px solid #ccc !important;
+}
+
+.message-area {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+}
+
+.invisible {
+  display: none;
+}
+
+.is-shadowed {
+  -webkit-box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.75);
+}
+
+.full-name {
+  display: block;
+  font-family: "Dancing Script";
+  font-size: 1.5rem;
+  text-align: center !important;
+  font-weight: 700;
+}
+
+.buttons-homepage {
+  color: #111 !important;
+  font-size: 1rem;
+  font-family: Oswald;
+  font-weight: bold;
+  letter-spacing: 0.095rem;
+}
+
+.modal-card-title,
+.modal-card-foot {
+  font-family: Oswald !important;
+  font-size: 1rem !important;
+}
+.modal-card-title .button,
+.modal-card-foot .button {
+  font-family: Oswald !important;
+  font-size: 1rem !important;
+}
+
+label.sidemenu-label {
+  font-family: Oswald !important;
+  font-size: 1rem !important;
+  font-weight: 700;
+  letter-spacing: 0.095rem;
+}
+
+.card-image-format {
+  max-width: 400px;
+  margin: auto;
+  aspect-ratio: 1;
+}
+
+/*# sourceMappingURL=index.css.map */

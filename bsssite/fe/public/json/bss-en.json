@@ -1,0 +1,53 @@
+{
+  "sections": [
+    "BSS is not a company, but a collective!",
+    "How do we work?",
+    "A bit of history..."
+  ],
+  "firstLine": [
+    {
+      "title": "What is a collective?",
+      "image": "/images/bss/collective.png",
+      "text": "<span>A collective is a united group pursuing shared interests, often collaborating with shared duties and decision-making. It spans social, political, and business spheres. Examples include artists collaborating, employee cooperatives, and international collaborations. Collectives signify harmonious group efforts, whether artistic, business-oriented, or globally shared.</span>"
+    },
+    {
+      "title": "Assembly of Members",
+      "image": "/images/bss/assembly.png",
+      "text": "<span>As a collective, Black Scorpion Software is governed by an Assembly of Members—a democratic structure that represents all stakeholders. Comprising all members, it guides strategic decisions through regular meetings, fostering transparency and shared ownership. This underscores our commitment to collaboration, transparency, and achieving business goals together.</span>"
+    },
+    {
+      "title": "No employees",
+      "image": "/images/bss/membersonly.png",
+      "text": "<span>At Black Scorpion Software, we champion the collective model, distinguishing us from conventional structures. Our organization comprises collective members, each vital and equal in status, actively engaged in decision-making and pursuing shared goals. This unity drives collaboration, respects diversity, and fuels innovation, shaping the future of software solutions together.</span>"
+    }
+  ],
+  "secondLine": [
+    {
+      "title": "The Three Tiers",
+      "image": "/images/bss/threetiers.png",
+      "text": "<span>As a collective, Black Scorpion Software employs a meticulous admission process for new members, ensuring efficiency and dedication. Our membership structure consists of Trainees, Junior Associates, and Senior Associates. Trainees undergo comprehensive training, while Junior Associates contribute without voting rights. Senior Associates attain full status and voting rights, reflecting their pivotal role in shaping the collective's path. At each level, integration deepens, forming a strong and unified community.</span>"
+    },
+    {
+      "title": "Technical Recruiting",
+      "image": "/images/bss/ourservices.png",
+      "text": "<span>At Black Scorpion Software, we deliver a robust portfolio of four vital services. Our offerings encompass proprietary software solutions adhering to industry standards, tailored custom development, insightful consulting, and skilled team deployment. Each service underscores our dedication to excellence and value addition, empowering your business with superior technology solutions. Discover the breadth of options at Black Scorpion Software.</span>"
+    }
+  ],
+  "thirdLine": [
+    {
+      "title": "Our founders",
+      "image": "/images/bss/ed.png",
+      "text": "<span><strong>Ed de Almeida</strong></span>, aka 'The Dinosaur', started <strong>Black Scorpion Software</strong> with the money made selling his first JavaScript library to process DICOM images. He is a Brazilian mathematician, software developer, psychoanalyst and writer. If you want to know more about him, please visit <a href='ed.html'>his page</a>.</span>"
+    },
+    {
+      "title": "The Origin of the name",
+      "image": "/images/bss/blackscorpion.png",
+      "text": "<span>The company initially had a different name, but it was renamed after Ed de Almeida was stung by a black scorpion during a trip. After spending days in critical condition, he survived. According to Ed de Almeida, Friedrich Nietzsche was right in saying that what does not kill us makes us stronger.</span>"
+    },
+    {
+      "title": "Senior Associates",
+      "image": "/images/bss/crowd.png",
+      "text": "<span><strong>Black Scorpion Software</strong> started with a man, five years ago. Now we have seventy two associates, distributed all over the world, and we are growing fast. To meet our Senior Associates, please visit <a href='seniores.html'>this page</a>. Our Junior Associates are listed <a href='juniores.html'>here</a>.</span>"
+    }
+  ]
+}

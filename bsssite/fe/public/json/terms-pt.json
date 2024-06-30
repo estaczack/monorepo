@@ -1,0 +1,55 @@
+{
+  "sections": [
+    "Termos de Uso"
+  ],
+  "firstLine": [
+    {
+      "title": "Introdução",
+      "text": "Bem-vindo ao nosso site! Ao acessar e utilizar nossos serviços, você concorda com estes termos de uso, que estabelecem as regras e diretrizes para a sua interação conosco."
+    },
+    {
+      "title": "Aceitação dos Termos",
+      "text": "Ao utilizar o site, você concorda em cumprir integralmente com estes termos de uso. Caso não concorde com algum ponto, pedimos que não continue utilizando nossos serviços."
+    },
+    {
+      "title": "Uso Responsável",
+      "text": "Você concorda em usar o site de maneira responsável, não infringindo qualquer lei ou regulamento aplicável, bem como respeitando os direitos de terceiros."
+    },
+    {
+      "title": "Respeito e Não Discriminação",
+      "text": "Os usuários são obrigados a tratar uns aos outros com respeito e consideração. Qualquer forma de ataque pessoal, discurso de ódio, preconceito, discriminação ou linguagem ofensiva não será tolerada."
+    },
+    {
+      "title": "Conteúdo Gerado pelos Usuários",
+      "text": "Ao contribuir com conteúdo, como comentários ou publicações, você concorda que não irá compartilhar material difamatório, obsceno, ilegal ou que viole os direitos de terceiros."
+    },
+    {
+      "title": "Propriedade Intelectual",
+      "text": "O conteúdo presente no site é protegido por direitos autorais e propriedade intelectual. Você concorda em não reproduzir, distribuir ou modificar qualquer conteúdo sem autorização expressa."
+    },
+    {
+      "title": "Privacidade",
+      "text": "Respeitamos a sua privacidade. Consulte nossa política de privacidade para entender como coletamos, usamos e protegemos seus dados pessoais."
+    },
+    {
+      "title": "Links Externos",
+      "text": "O site pode conter links para recursos externos. Não nos responsabilizamos pelo conteúdo ou pelas práticas de privacidade desses sites de terceiros."
+    },
+    {
+      "title": "Modificações e Interrupções",
+      "text": "Reservamos o direito de modificar ou interromper o site a qualquer momento, sem aviso prévio. Não nos responsabilizamos por eventuais perdas decorrentes dessas ações."
+    },
+    {
+      "title": "Isenção de Garantias",
+      "text": "O site é fornecido 'como está', sem garantias de qualquer tipo, expressas ou implícitas. Não nos responsabilizamos por danos diretos, indiretos, incidentais ou consequenciais."
+    },
+    {
+      "title": "Rescisão",
+      "text": "Reservamos o direito de rescindir o acesso de qualquer usuário que viole estes termos de uso ou se envolva em condutas prejudiciais para o site ou outros usuários."
+    },
+    {
+      "title": "Jurisdição e Lei Aplicável",
+      "text": "Estes termos de uso são regidos pelas leis da [país/estado], e qualquer disputa será submetida à jurisdição dos tribunais competentes nessa região."
+    }
+  ]
+}

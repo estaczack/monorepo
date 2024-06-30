@@ -1,0 +1,39 @@
+{
+    "title": "Hypatia",
+    "subtitle": "The social network for readers and academic researchers",
+    "altLogo": "Hypatia of Alexandria",
+    "normalClasses": "button is-dark menu-item-thin",
+    "emphasisClasses": "button is-success menu-item-thin", 
+    "menu": [
+        {
+            "text": "Homepage",
+            "url": "/",
+            "status": "normal"
+        },
+        {
+            "text": "About",
+            "url": "/about.html",
+            "status": "normal"
+        },
+        {
+            "text": "About BSS",
+            "url": "/bss.html",
+            "status": "normal"
+        },
+        {
+            "text": "Terms of Use",
+            "url": "/terms.html",
+            "status": "normal"
+        },
+        {
+            "text": "Donate",
+            "url": "/donate.html",
+            "status": "emphasis"
+        },
+        {
+            "text": "Signup",
+            "url": "/signup.html",
+            "status": "normal"
+        }
+    ]
+}

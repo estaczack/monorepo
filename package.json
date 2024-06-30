@@ -1,0 +1,48 @@
+{
+  "name": "bssmonorepo",
+  "version": "1.0.0",
+  "description": "Repository for all BSS projects",
+  "main": "index.js",
+  "projects": [
+    "bsswebsite",
+    "hypatia",
+    "sokrates",
+    "xenofonte"
+  ],
+  "scripts": {
+    "build-all": "sh bin/build-all.sh"
+  },
+  "authors": [
+    {
+      "name": "Ed de Almeida",
+      "email": "edvaldoajunior@gmail.com",
+      "url": "https://eddealmeida.surge.sh",
+      "project": "all"
+    },
+    {
+      "name": "João Bernardo",
+      "email": "bernardojoao9@gmail.com",
+      "url": "https://jbnado.dev",
+      "project": "Sokrates"
+    },
+    {
+      "name": "Nymeria Ronan",
+      "email": "nymisronanyyx@gmail.com",
+      "url": "https://github.com/NymeriaRonan",
+      "project": "Hypatia"
+    },
+    {
+      "name": "Vinícius Cássio",
+      "email": "viniciuscassiomnz@gmail.com",
+      "url": "https://github.com/viniciuscmnz",
+      "project": ""
+    }
+  ],
+  "license": "BSS",
+  "dependencies": {
+    "@mokuteki/jwt": "^1.0.2",
+    "bcrypt": "^5.1.0",
+    "mysql2": "^3.2.1",
+    "uuid": "^9.0.0"
+  }
+}

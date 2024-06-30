@@ -1,0 +1,24 @@
+{
+    "title": "Black Scorpion Software",
+    "subtitle": "Excellence in Software Development",
+    "altLogo": "BSS Logo",
+    "normalClasses": "button is-very-dark menu-item-thin not-bordered",
+    "emphasisClasses": "button is-very-dark menu-item-thin not-bordered", 
+    "menu": [
+        {
+            "text": "Homepage",
+            "url": "/",
+            "status": "normal"
+        },
+        {
+            "text": "About BSS",
+            "url": "/bss.html",
+            "status": "normal"
+        },
+        {
+            "text": "Participate",
+            "url": "/participate.html",
+            "status": "emphasis"
+        }
+    ]
+}

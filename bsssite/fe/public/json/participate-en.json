@@ -1,0 +1,58 @@
+{
+  "sections": [
+    "Become a Member",
+    "Mentoring Program"
+  ],
+  "firstLine": [
+    {
+      "title": "Watch",
+      "text": "Watch the following videos:<ul><li><a href='https://youtu.be/BuGRSR-qnX4' target='_new'>https://youtu.be/BuGRSR-qnX4</a></li><li><a href='https://youtu.be/KuKNwf8TQsQ' target='_new'>https://youtu.be/KuKNwf8TQsQ</a></li></ul>We are a strange company and after watching these videos, maybe you give up the idea of joining us. And are we to blame you?!"
+    },
+    {
+      "title": "Apply",
+      "text": "Fill up this form <a href='/formmember.html' target='_new'>here</a>, sending us all information required. Don't worry, we are not too invasive. Information about your personal live is of no use for us. We just want to know how good you are, or you think you are, before talking to you."
+    },
+    {
+      "title": "Talk to us",
+      "text": "You'll be invited to an interview with one of our members. In this conversation, we'll explore your reasons to apply for a membership, as well as you technical qualifications."
+    },
+    {
+      "title": "Code",
+      "text": "If the interviewer consider necessary, you'll be asked to take a challenge in your area, solving a small problem online with one of us. This is an optional part of our process. Sometimes we are able to grasp your skills during the interview, sometimes not."
+    },
+    {
+      "title": "Wait",
+      "text": "We'll contact you. Please notice we receive a number of applications and this may not happen as fast as you expect, but we <strong>never</strong> let our candidates without a feedback, be it positive or negative."
+    },
+    {
+      "title": "Be approved",
+      "text": "If approved, you'll be required to provide us all documents needed to add you to our social contract, as a Junior Associate. Being a Senior Associate is a reward for work done in favor of our collective, not something achieved in entrance, no matter your previous experience."
+    },
+    {
+      "title": "Be rejected",
+      "text": "Being rejected means only that moment is not the right moment to have you among our associates. We'll provide you a detalied feedback about the reasons of the rejection and we'll be ready to receive another application in six months."
+    }
+  ],
+  "secondLine": [
+    {
+      "title": "Watch",
+      "text": "Watch the following video: <a href='' target=''></a> and check all terms and conditions of our <strong>Mentoring Program</strong>. Make sure you understand everything, because we won't move a bit of the terms and conditions, for any reason."
+    },
+    {
+      "title": "Apply",
+      "text": "Fill up this form <a href='/formmember.html' target='_new'>here</a>, sending us all information required. Don't worry, we are not too invasive. Information about your personal live is of no use for us. We just want to know a bit about you before our talk."
+    },
+    {
+      "title": "Talk to us",
+      "text": "You'll be invited to an interview with one of our members. This is not a technical interview. We just want to know how familiar you are with programming and how motivated you are to learn. If you know nothing about programming, don't worry. This is not a requirement."
+    },
+    {
+      "title": "Be tested",
+      "text": "Don't worry, this test is not about programming at all! It's all about your logical thinking and your language skills. "
+    },
+    {
+      "title": "Wait",
+      "text": "We'll publish a list with approved people, then you'll have a few days to sign up for our Mentoring Program. If you're not in this list, we are sorry. No appeals will be accepted. You may always try again next year."
+    }
+  ]
+}

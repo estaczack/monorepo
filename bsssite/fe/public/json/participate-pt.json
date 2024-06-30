@@ -1,0 +1,54 @@
+{
+  "sections": [
+    "Torne-se Membro",
+    "Programa de Mentoria"
+  ],
+  "firstLine": [
+    {
+      "title": "Assistir",
+      "text": "Assista aos seguintes vídeos:<ul><li><a href='https://youtu.be/BuGRSR-qnX4' target='_new'>https://youtu.be/BuGRSR-qnX4</a></li><li><a href='https://youtu.be/KuKNwf8TQsQ' target='_new'>https://youtu.be/KuKNwf8TQsQ</a></li></ul>Nós somos uma empresa peculiar e depois de assistir a esses vídeos, talvez você desista da ideia de se juntar a nós. E nós podemos culpá-lo?"
+    },
+    {
+      "title": "Aplicar",
+      "text": "Preencha este formulário <a href='https://docs.google.com/forms/d/e/1FAIpQLSekpI3cZEPWSkoJfVKjbKT5RO-ev_VeOiToHYnuXcAx8Yilnw/viewform?vc=0&c=0&w=1&flr=0' target='_new'>aqui</a>, enviando todas as informações necessárias. Não se preocupe, não somos invasivos demais. Informações sobre sua vida pessoal não nos interessam. Queremos apenas saber quão bom você é, ou acha que é, antes de conversarmos com você."
+    },
+    {
+      "title": "Conversar",
+      "text": "Você será convidado para uma entrevista com um de nossos membros. Nessa conversa, exploraremos suas razões para se candidatar a uma associação, bem como suas qualificações técnicas."
+    },
+    {
+      "title": "Codificar",
+      "text": "Se o entrevistador considerar necessário, você será convidado a enfrentar um desafio em sua área, resolvendo um pequeno problema online com um de nós. Esta é uma parte opcional de nosso processo. Às vezes, conseguimos avaliar suas habilidades durante a entrevista, às vezes não."
+    },
+    {
+      "title": "Esperar",
+      "text": "Entraremos em contato com você. Por favor, observe que recebemos muitas inscrições e isso pode não acontecer tão rápido quanto você espera, mas nós <strong>sempre</strong> fornecemos um feedback aos nossos candidatos, seja ele positivo ou negativo."
+    },
+    {
+      "title": "Aprovado",
+      "text": "Se aprovado, você precisará nos fornecer todos os documentos necessários para ser adicionado ao nosso contrato social, como Associado Júnior. Ser um Associado Sênior é uma recompensa pelo trabalho realizado em prol do nosso coletivo, não algo alcançado na entrada, independentemente de sua experiência anterior."
+    },
+    {
+      "title": "Rejeitado",
+      "text": "Ser rejeitado significa apenas que este não é o momento certo para tê-lo entre nossos associados. Forneceremos um feedback detalhado sobre os motivos da rejeição e estaremos prontos para receber outra inscrição em seis meses."
+    }
+  ],
+  "secondLine": [
+    {
+      "title": "Aplicar",
+      "text": "Preencha este formulário <a href='https://docs.google.com/forms/d/e/1FAIpQLSdB1KiFM7hc5nKDj5hwARoGLWcvMIbC3cov4PhPicYmpvTjMA/viewform?usp=sf_link' target='_new'>aqui</a>, enviando todas as informações necessárias. Não se preocupe, não somos invasivos demais. Informações sobre sua vida pessoal não nos interessam. Queremos apenas saber um pouco sobre você antes da nossa conversa."
+    },
+    {
+      "title": "Conversar",
+      "text": "Você será convidado para uma entrevista com um de nossos membros. Esta não é uma entrevista técnica. Queremos apenas saber o quão familiarizado você está com a programação e o quanto você está motivado para aprender. Se você não sabe nada sobre programação, não se preocupe. Isso não é um requisito."
+    },
+    {
+      "title": "Ser testado",
+      "text": "Não se preocupe, este teste não é sobre programação de jeito nenhum! É tudo sobre seu pensamento lógico e suas habilidades linguísticas."
+    },
+    {
+      "title": "Esperar",
+      "text": "Vamos publicar uma lista com pessoas aprovadas e, em seguida, você terá alguns dias para se inscrever em nosso Programa de Mentoria. Se você não estiver nesta lista, lamentamos. Recursos não serão aceitos. Você sempre pode tentar novamente no próximo ano."
+    }
+  ]
+}

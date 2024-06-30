@@ -1,0 +1,33 @@
+{
+    "title": "Xenofonte",
+    "subtitle": "Taking finance administration to a next level",
+    "normalClasses": "button is-dark menu-item-thin",
+    "emphasisClasses": "button is-success menu-item-thin", 
+    "menu": [
+        {
+            "text": "Homepage",
+            "url": "/",
+            "status": "normal"
+        },
+        {
+            "text": "About",
+            "url": "/about",
+            "status": "normal"
+        },
+        {
+            "text": "About BSS",
+            "url": "/bss",
+            "status": "normal"
+        },
+        {
+            "text": "Terms of Use",
+            "url": "/terms",
+            "status": "normal"
+        },
+        {
+            "text": "Signup",
+            "url": "/signup",
+            "status": "normal"
+        }
+    ]
+}

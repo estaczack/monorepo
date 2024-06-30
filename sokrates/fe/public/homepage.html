@@ -1,0 +1,163 @@
+<html lang="en">
+
+<head>
+  <title>Hypatia</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
+  <link rel="icon" href="/images/logo_sm.png" type="image/x-icon">
+</head>
+
+<body>
+  <div id="message-area" class="message-area"></div>
+  <div id="root">
+    <div class="App">
+      <div id="Content" class="section">
+        <div class="columns">
+          <div class="column is-2">
+            <div class="box is-pink">
+              <div class="level">
+                <div class="level-item has-text-centered">
+                  <figure class="image is-128x128 has-text-centered">
+                    <img class="is-rounded" src="/images/person.png" alt="User" />
+                  </figure>
+                </div>
+              </div>
+              <div class="level">
+                <div class=class="level-item has-text-centered">
+                  <div id="full-name" class="full-name">
+                    <a id="link-for-profile"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="block">
+                <div class="field">
+                  <label class="label sidemenu-label">
+                    Language
+                  </label>
+                  <div class="control">
+                    <div class="select is-fullwidth">
+                      <select id="language-select"></select>
+                    </div>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label sidemenu-label">
+                    Language
+                  </label>
+                  <div class="control">
+                    <div class="select is-fullwidth">
+                      <select id="type-select"></select>
+                    </div>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label sidemenu-label">
+                    Language
+                  </label>
+                  <div class="control">
+                    <div class="select is-fullwidth">
+                      <select id="genre-select"></select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-6">
+            <div class="box is-pink">
+              <div class="level">
+                <div class="level-left">
+                  <div class="level-item">
+                    <button id="posts-menu-button" class="button is-ghost buttons-homepage">
+                      Posts
+                    </button>
+                  </div>
+                  <div class="level-item">
+                    <button id="mentions-menu-button" class="button is-ghost buttons-homepage">
+                      Mentions
+                    </button>
+                  </div>
+                  <div class="level-item">
+                    <button id="add-post-menu-button" class="button is-ghost buttons-homepage">
+                      Add post
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-4">
+            <div class="box"></div>
+            <div class="box is-pink"></div>
+          </div>
+        </div>
+      </div>
+      <modal id="post-modal" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head is-pink">
+            <p class="modal-card-title">
+              <strong id="span-modal-title"></strong>
+            </p>
+            <button id="close-modal-button" class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <form id="form-post" enctype="multipart/form-data">
+              <input id="user-id-field" name="user_id" type="hidden" />
+              <input id="language-id-field" name="language_id" type="hidden" />
+              <input id="type-id-field" name="type_id" type="hidden" />
+              <input id="genre-id-field" name="genre_id" type="hidden" />
+              <label class="label">Title</label>
+              <input id="title" name="title" class="input" type="text" />
+              <label class="label">Text</label>
+              <textarea id="text" name="text" class="textarea is-fullwidth"></textarea>
+              <label class="label">
+                Image (optional)
+              </label>
+              <div class="file has-name">
+                <label class="file-label">
+                  <input id="postimage" name="postimage" class="file-input" type="file" />
+                  <span class="file-cta">
+                    <span class="file-icon">
+                      <i class="fas fa-upload"></i>
+                    </span>
+                    <span class="file-label">
+                      Choose a file
+                    </span>
+                  </span>
+                  <span id="file-name-field" class="file-name"></span>
+                </label>
+              </div>
+              <div class="columns">
+                <div class="column is-6">
+                  <button id="cancel-post-button" class="button is-danger is-fullwidth buttons-homepage">
+                    Cancel
+                  </button>
+                </div>
+                <div class="column is-6">
+                  <button id="add-post-button" type="submit" class="button is-info is-fullwidth buttons-homepage">
+                    Add
+                  </button>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div>
+      </modal>
+    </div>
+  </div>
+  <script type="text/javascript">
+    let bodyTag = document.getElementsByTagName("body")[0];
+    let url = window.location.href;
+    let urlArray = url.split("/");
+    let sc = urlArray.pop();
+    sc = (sc === "") ? "index.html" : sc;
+    scArray = sc.split(".");
+    scName = "/js/" + scArray[0] + ".js";
+    let scriptTag = document.createElement("script");
+    scriptTag.setAttribute("src", scName);
+    bodyTag.appendChild(scriptTag);
+  </script>
+</body>
+
+</html>

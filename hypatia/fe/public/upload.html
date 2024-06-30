@@ -1,0 +1,154 @@
+<html lang="en">
+
+<head>
+  <title>Hypatia</title>
+  <script src="https://kit.fontawesome.com/304db94c25.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
+  <link rel="icon" href="/images/logo_sm.png" type="image/x-icon">
+</head>
+
+<body>
+  <div id="message-area" class="message-area"></div>
+  <div id="root">
+    <div class="App">
+      <div id="Content" class="section">
+        <div class="columns">
+          <div class="column is-3">
+            <div class="card">
+              <header class="card-header is-pink">
+                <p class="card-header-title">Authors</p>
+                <button id="search-author-button" class="card-header-icon" aria-label="Search author">
+                  <span class="icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </span>
+                </button>
+                <button id="add-author-button" class="card-header-icon" aria-label="Add an author">
+                  <span class="icon">
+                    <i class="fa-solid fa-plus"></i>
+                  </span>
+                </button>
+              </header>
+              <div class="card-content">
+                <div class="content">
+                  <ul id="authors-list" class="authors-list">
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="content-area" class="column is-6">
+            <div class="box is-pink">
+              <div class="block">
+                <label class="label">Author(s)</label>
+                <ul id="upload-authors-list"> </ul>
+              </div>
+              <div class="block">
+                <label class="label">Title</label>
+                <input id="book-title" class="input" type="text" placeholder="Title" />
+              </div>
+              <div class="block">
+                <label class="label">Subtitle</label>
+                <input id="book-subtitle" class="input" type="text" placeholder="Subtitle" />
+              </div>
+              <div class="columns is-multiline">
+                <div class="column is-4">
+                  <label class="label">Language</label>
+                  <div class="select is-fullwidth">
+                    <select id="language-select"></select>
+                  </div>
+                </div>
+                <div class="column is-4">
+                  <label class="label">Type</label>
+                  <div class="select is-fullwidth">
+                    <select id="type-select"></select>
+                  </div>
+                </div>
+                <div class="column is-4">
+                  <label class="label">Genre</label>
+                  <div class="select is-fullwidth">
+                    <select id="genre-select"></select>
+                  </div>
+                </div>
+                <div class="column is-4">
+                  <label class="label">Edition</label>
+                  <input class="input" type="text" id="book-edition" />
+                </div>
+                <div class="column is-4">
+                  <label class="label">Editor</label>
+                  <input class="input" type="text" id="book-editor" />
+                </div>
+                <div class="column is-4">
+                  <label class="label">Year</label>
+                  <input class="input" type="text" id="book-year" />
+                </div>
+                <div class="column is-4">
+                  <label class="label">Location</label>
+                  <input class="input" type="text" id="book-location" />
+                </div>
+                <div class="column is-4">
+                  <label class="label">ISBN</label>
+                  <input class="input" type="text" id="book-isbn" />
+                </div>
+              </div>
+              <div class="block">
+                <label class="label">File</label>
+                <div class="file has-name">
+                  <label class="file-label">
+                    <input id="postimage" name="postimage" class="input file-input" type="file" />
+                    <span class="file-cta">
+                      <span class="file-icon">
+                        <i class="fas fa-upload"></i>
+                      </span>
+                      <span class="file-label">
+                        Choose a file
+                      </span>
+                    </span>
+                    <span id="file-name-field" class="file-name"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column is-6">
+                  <button id="cancel-book-upload-button" class="button is-success is-fullwidth">Cancel</button>
+                </div>
+                <div class="column is-6">
+                  <button id="perform-book-upload-button" class="button is-danger is-fullwidth">Upload</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="extra-area" class="column is-3"></div>
+        </div>
+      </div>
+      <modal id="author-modal" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head is-pink">
+            <p class="modal-card-title">
+              Add an author
+            </p>
+            <button id="close-author-modal-button" class="delete" aria-label="close"></button>
+          </header>
+          <div class="card-content">
+            teste
+          </div>
+        </div>
+      </modal>
+    </div>
+  </div>
+  <script type="text/javascript">
+    let bodyTag = document.getElementsByTagName("body")[0];
+    let url = window.location.href;
+    let urlArray = url.split("/");
+    let sc = urlArray.pop();
+    sc = (sc === "") ? "index.html" : sc;
+    scArray = sc.split(".");
+    scName = "/js/" + scArray[0] + ".js";
+    let scriptTag = document.createElement("script");
+    scriptTag.setAttribute("src", scName);
+    bodyTag.appendChild(scriptTag);
+  </script>
+</body>
+
+</html>

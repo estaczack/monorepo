@@ -1,0 +1,169 @@
+<html lang="en">
+
+<head>
+  <title>Black Scorpion Software</title>
+  <script src="https://kit.fontawesome.com/304db94c25.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
+  <link rel="icon" href="/images/logo_sm.png" type="image/x-icon">
+</head>
+
+<body>
+  <div id="message-area" class="message-area"></div>
+  <div id="root">
+    <div class="App">
+      <div id="Content" class="section">
+        <div class="columns">
+          <div id="column1" class="column is-3">
+            <div class="block">
+              <table class="table is-fullwidth is-bordered">
+                <thead class="is-light-gray">
+                  <tr>
+                    <th>
+                      <button class="button is-primary is-fullwidth" disabled>
+                        OPÇÕES
+                      </button>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody id="menu-lateral">
+                  <tr>
+                    <td>
+                      <a href="/mentoria/dashboard.html" class="button is-fullwidth">
+                        Página principal
+                      </a>
+                      <a href="/mentoria/pwdchange.html" class="button is-fullwidth">
+                        Mudar senha
+                      </a>
+                      <a href="/mentoria/library.html" class="button is-fullwidth">
+                        Biblioteca virtual
+                      </a>
+                      <div class="block">
+                        <a href="/mentoria/ranking.html" class="button is-fullwidth">
+                          Ranking
+                        </a>
+                      </div>
+                      <div class="block">
+                        <button id="logout-button" class="button is-danger is-fullwidth">
+                          Logout
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+                </tbody>
+              </table>
+            </div>
+            <div class="block">
+              <table class="table is-fullwidth is-bordered is-striped">
+                <thead class="is-light-gray">
+                  <tr>
+                    <th colspan="2">
+                      <button class="button is-primary is-fullwidth" disabled>
+                        CALENDÁRIO SEMANAL
+                      </button>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th>Dia</th>
+                    <th>Aula</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Seg</td>
+                    <td>Inglês</td>
+                  </tr>
+                  <tr>
+                    <td>Ter</td>
+                    <td>Álgebra Linear</td>
+                  </tr>
+                  <tr>
+                    <td>Qua</td>
+                    <td>Lógica de Programação, Algoritmos e Estruturas de Dados</td>
+                  </tr>
+                  <tr>
+                    <td>Qui</td>
+                    <td>Estatística e Ciência de Dados</td>
+                  </tr>
+                  <tr>
+                    <td>Sex</td>
+                    <td>Matemática Discreta Aplicada à Programação</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div id="column2" class="column is-4">
+            <div class="block">
+              <table class="table is-fullwidth is-bordered is-striped">
+                <thead class="is-light-gray">
+                  <tr>
+                    <th colspan="2">
+                      <button class="button is-primary is-fullwidth" disabled>
+                        LISTA DE AULAS
+                      </button>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th>Semana</th>
+                    <th>Disciplina</th>
+                  </tr>
+                </thead>
+                <tbody id="tabelaAulas"></tbody>
+              </table>
+            </div>
+          </div>
+          <div id="column3" class="column is-5">
+            <div class="block">
+              <table class="table is-fullwidth is-bordered is-striped">
+                <thead class="is-light-gray">
+                  <tr>
+                    <th>
+                      <button class="button is-primary is-fullwidth" disabled>
+                        FEEDBACK
+                      </button>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th>Use esta área para enviar-nos seu feedback. Pode usar de toda sinceridade. Na BSS Brasil os
+                      feedbacks são respeitados e usados para evoluirmos, não para punir pessoas.</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <textarea id="feedback-field" class="textarea"></textarea>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <button id="feedback-button" class="button is-success is-fullwidth">
+                        Enviar
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    let bodyTag = document.getElementsByTagName("body")[0];
+    let url = window.location.href;
+    let urlArray = url.split("/");
+    let sc = urlArray.pop();
+    sc = (sc === "") ? "index.html" : sc;
+    scArray = sc.split(".");
+    scName = "/js/" + scArray[0] + ".js";
+    let scriptTag = document.createElement("script");
+    scriptTag.setAttribute("src", scName);
+    scriptTag.setAttribute("type", "text/javascript")
+    bodyTag.appendChild(scriptTag);
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+{
+  "sections": [
+    "Excellence in Software Development",
+    "Excellence in Services"
+  ],
+  "firstLine": [
+    {
+      "title": "Ed de Almeida",
+      "image": "/images/index/eddealmeida.png",
+      "text": "<p><strong>\"Our software deals with human lives and saves human lives every day. That's why we are deeply committed to a high standard of quality.\"</strong></p><p>Ed de Almeida<br />Head of Development</p><p class='is-size-6'>Learn more about the <a href='/development.html'>Development Dept.</a></p>"
+    },
+    {
+      "title": "Dai Fanchin",
+      "image": "/images/index/daifanchin.png",
+      "text": "<p><strong>\"We value people above all else. That's why we have humanized selection processes and take care of the mental health of our members.\"</strong></p><p>Daiely Fanchin<br />Head of Human Resources</p><p>Learn more about the <a href='/hr.html'>Human Resources Dept.</a></p>"
+    },
+    {
+      "title": "Daniel Magno",
+      "image": "/images/index/danielmagno.png",
+      "text": "<p><strong>\"English is the official language of the software community. Therefore, we strive for all our members, from all around the world, to master it perfectly.\"</strong></p><p>Daniel Magno<br />Head of Language Dept.</p><p>Learn more about the <a href='/languages.html'>Languages Dept.</a></p>"
+    },
+    {
+      "title": "Curses & Lectures",
+      "image": "/images/index/lectures.png",
+      "text": "<p>Black Scorpion Software now has an Educational Department, specially created to provide Information Technology personnel with high-quality courses and lectures on a number of different technical and humanistic subjects. All courses are designed to develop both hard and soft skills.<button class='button is-danger'>Learn more!</button></p>"
+    }
+  ],
+  "secondLine": [
+    {
+      "title": "Medical Imagery",
+      "image": "/images/index/imageprocessing.png",
+      "text": "<span>Black Scorpion Software excels in medical image processing aligned with DICOM standards. Our robust solutions manage complex medical imaging data, ensuring seamless compatibility with various equipment. We enhance diagnostic accuracy, streamline workflows, and prioritize patient care. Experience how we shape medical imaging's future, image by image.</span>"
+    },
+    {
+      "title": "Data Extraction",
+      "image": "/images/index/dataextraction.png",
+      "text": "<span>Meet <strong>BSSDE – Black Scorpion Software Data Extraction Toolkit</strong>. Harness advanced algorithms to swiftly retrieve crucial data from various sources. Simplify complex data management, gain insights effortlessly, and make confident data-driven decisions. Experience precision and power in understanding your data with BSSDE by Black Scorpion Software.</span>"
+    },
+    {
+      "title": "Data Interpretation",
+      "image": "/images/index/datainterpretation.png",
+      "text": "<span>Introducing <strong>BSSDI – Black Scorpion Software Data Interpretation Toolkit</strong>, your gateway to unlocking semantic depth within your data. Through advanced semantic analysis, BSSDI unveils hidden meanings and associations, transforming complex data into actionable insights with unparalleled precision. Elevate data interpretation to new levels and harness data's strategic potential.</span>"
+    },
+    {
+      "title": "Form newsletter",
+      "image": "/images/index/newsletter.png",
+      "text": "<form action='/api/newsleter' method='POST'><div class='field'><label class='label'>Name</label><div class='control'><input class='input' type='text' name='name' /></div></div><div class='field'><label class='label'>Email</label><div class='control'><input class='input' type='text' name='email' /></div></div><div class='control'><div class='button is-dark is-fullwidth'>Subscribe</button></div></form>"
+    }
+  ],
+  "thirdLine": [
+    {
+      "title": "Outsourcing",
+      "image": "/images/index/outsourcing.png",
+      "text": "<span>At Black Scorpion Software, we recognize that talent drives success. Benefit from our premier outsourcing services, linking businesses with adept developers. Our broad network spans specialties, ensuring ideal matches for your project needs. Whether you seek a dedicated team or individual developer, rely on us to source top tech talent. Partner with Black Scorpion Software for expert talent acquisition, empowering your business growth.</span>"
+    },
+    {
+      "title": "Technical Recruiting",
+      "image": "/images/index/recruitment.png",
+      "text": "<span>Beyond being a premier software provider, Black Scorpion Software excels as a recruitment services partner. We specialize in pairing top IT talent with businesses seeking team and project enhancement. Leveraging our extensive network and IT expertise, we secure the ideal candidates for every role, considering both skills and cultural fit. Trust us to meet your talent needs, whether experienced or emerging. Let us tackle your recruitment challenges.</span>"
+    },
+    {
+      "title": "Treinees' Program",
+      "image": "/images/index/trainees.png",
+      "text": "<span>At Black Scorpion Software, we foster the future of software professionals with our inclusive Mentoring Program. Addressing the industry's skill gap, our immersive initiative empowers novices to skilled developers. Guided by seasoned mentors, trainees gain hands-on expertise and industry insights, preparing them for dynamic market demands. Join us in cultivating the tech industry's growth, step by step. Embrace our Trainee Program to forge your path as a software development leader.</span>"
+    }
+  ]
+}
